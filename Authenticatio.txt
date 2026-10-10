@@ -1,0 +1,65 @@
+// building authentication system 
+
+mobile => 798725242982
+email=>y28y8y[.gmail.com]
+full name => rajlakshmi
+password => 21223 
+
+validation ==> jo data user ne diya , jo server ke andar aa rja , wo shi  format me hai ya nhi , 
+
+verfication ==> ye dekhna ki data shi hai ya nhi , 
+
+
+authentication ==>
+                    user A
+
+      server                    user B
+
+
+                   user C 
+
+ko ek user req karega server pe , ye kaise pata chalega kis user se aa rhi hai 
+--> isko hi identify karne ko hum kehte hai authentication 
+
+authorization --> 
+
+classroom          stafroom          director room      --> rooms 
+
+      student        faculty         director -->users 
+
+student have direct access to only classroom , 
+faculty , classroom , stafroom 
+but , director --> all ;
+
+sabke pass apna apna alag alag permission hai 
+ek user ko kya kya karne ki permission hai is called  --> authorization 
+
+
+// two typees  1 , session based and token based 
+
+starting with token based 
+
+example school id , jo ki unique hoti hai , ek id , ek user , --> access facilities 
+
+server    <--  user   : register , 
+     token      --->               username , email , password , others 
+
+server will create account , save data in databse , 
+and sever will create token and give to that user, jisne apna data diya tha 
+
+
+ab lets say user ko ek post create karni hai , to user tabhi kar payega , jab wo login karega 
+
+kaise , token ki copy dega server ko , ab user post create kr skta hai 
+                 
+               <-- userA  - token A
+
+server     <-- Register       <--userB - token B 
+
+                 <--userC  - token C
+                  
+
+  ab jo jo req karega , apne apne topken ki copy bhejo , aur server chek kareaa , kiska token hai  , user identify hoga , and , req  handle karega server 
+  
+                  
+    
