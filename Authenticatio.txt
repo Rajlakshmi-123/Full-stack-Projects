@@ -34,7 +34,7 @@ but , director --> all ;
 sabke pass apna apna alag alag permission hai 
 ek user ko kya kya karne ki permission hai is called  --> authorization 
 
-
+`
 // two typees  1 , session based and token based 
 
 starting with token based 
@@ -60,6 +60,6 @@ server     <-- Register       <--userB - token B
                   
 
   ab jo jo req karega , apne apne topken ki copy bhejo , aur server chek kareaa , kiska token hai  , user identify hoga , and , req  handle karega server 
-  
-                  
+
+
     
