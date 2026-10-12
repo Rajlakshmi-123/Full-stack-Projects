@@ -63,3 +63,16 @@ server     <-- Register       <--userB - token B
 
 
     
+
+    har request ke liye token jayega --> chahe ek hi user baar baar kyu na req kare 
+
+    har ek req ke sath token jayega 
+
+
+    
+
+
+
+    // hum token create kyu kr rhe hai  ?
+
+    

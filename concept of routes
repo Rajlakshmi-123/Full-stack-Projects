@@ -1,0 +1,23 @@
+is file me hun routes banate hai , 
+
+sari api idhar hi bayebge 
+
+
+folder structure :
+
+db> db.js-->database 
+routes --> auth.routes.js > here api wull be created 
+
+
+concept of cookie storage 
+
+store data for a single session 
+
+//implemeting cookies storsge . 
+server can directly access cookie 
+
+note ==> (req.cookie )se cookie access ka skta hai 
+
+
+
+
