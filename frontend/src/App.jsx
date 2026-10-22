@@ -7,10 +7,7 @@ import CreatePost from './pages/CreatePost';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/feed" element={<Feed />} />
-        <Route path="/create-post" element={<CreatePost />} />
-      </Routes>
+      <h1> hello world </h1>
     </BrowserRouter>
   );
 }
