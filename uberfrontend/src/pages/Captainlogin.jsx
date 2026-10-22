@@ -40,6 +40,7 @@ const Captainlogin = () => {
       <div>
         <img className='w-20 mb-3' src="https://www.svgrepo.com/show/505031/uber-driver.svg" alt="" />
 
+
         <form onSubmit={(e) => {
           submitHandler(e)
         }}>
@@ -55,7 +56,7 @@ const Captainlogin = () => {
             placeholder='email@example.com'
           />
 
-          <h3 className='text-lg font-medium mb-2'>Enter Password</h3>
+          <h3 className='text-lg font-medium mb-2'>Enter your  Password</h3>
 
           <input
             className='bg-[#eeeeee] mb-7 rounded-lg px-4 py-2 border w-full text-lg placeholder:text-base'
